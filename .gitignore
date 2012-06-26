@@ -1,0 +1,5 @@
+*/bin/
+*/obj/
+*.csproj.user
+*thumbs.db
+*.suo
