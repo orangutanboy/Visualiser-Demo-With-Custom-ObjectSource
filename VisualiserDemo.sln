@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualiserDemo_Short", "VisualiserDemo_Short.csproj", "{442A9F5D-3D14-4801-B489-721A497358DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualiserDemo", "VisualiserDemo.csproj", "{442A9F5D-3D14-4801-B489-721A497358DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

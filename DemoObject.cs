@@ -1,17 +1,11 @@
-﻿using System;
+﻿using System.Diagnostics;
 using System.Drawing;
 
 namespace VisualiserDemo
 {
+    [DebuggerVisualizer(typeof(DemoObjectVisualiser), typeof(DemoObjectSource))]
     public class DemoObject
     {
-        public DemoObject(Color colour, int[,] intArray)
-        {
-            Colour = colour;
-            IntArray = intArray;
-        }
-
-        public int[,] IntArray { get; private set; }
         public Color Colour { get; set; }
     }
 }

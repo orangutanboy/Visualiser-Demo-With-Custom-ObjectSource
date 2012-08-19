@@ -13,10 +13,10 @@ namespace VisualiserDemo
 
         private void doStuffButton_Click(object sender, EventArgs e)
         {
-            var initialColour = Color.DarkOrange;
-            var intArray = ArrayBuilder.InitialiseRandomArray(18, 7);
-
-            var demoObject = new DemoObject(initialColour, intArray);
+            var demoObject = new DemoObject
+            {
+                Colour = Color.DarkOrange
+            };
 
             System.Diagnostics.Debugger.Break();
             this.Close();
